@@ -1,0 +1,265 @@
+{
+	"info": {
+		"_postman_id": "20202773-4d45-4c04-a75f-13827a35bd4b",
+		"name": "TP Cine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 - PeliculaById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/pelicula/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"pelicula",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - FuncionesByDateOrTitle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/funcion?Título=Jurassic Park",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"funcion"
+					],
+					"query": [
+						{
+							"key": "Fecha",
+							"value": "hola",
+							"disabled": true
+						},
+						{
+							"key": "Título",
+							"value": "Jurassic Park"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Funcion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"peliculaId\":1,\r\n    \"salaId\":2,\r\n    \"fecha\":\"2021-10-10\",\r\n    \"horario\":\"18:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/funcion",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"funcion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Funcion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/funcion/12",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"funcion",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 - Tickets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"funcionId\":9,\r\n    \"usuario\":\"añsdlkfjañsldkfjañslkslkdfjañlskdfj\",\r\n    \"cantidad\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/tickets",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6 - AllFuncionesByPeliculaId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/funcion/pelicula/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"funcion",
+						"pelicula",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7 - PutPelicula",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\":\"A Nightmare on Elm Street\",\r\n    \"poster\":\"https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMDBkMS00NWFlLTg2YmUtZjc3ZTgxMjE1OTI2L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX780_.jpg\",\r\n    \"trailer\":\"https://www.imdb.com/video/vi2914255129?playlistId=tt0087800\",\r\n    \"sinopsis\":\"Varias personas son perseguidas por un asesino en serie que mata a sus víctimas durante sus sueños. Mientras los supervivientes hallan el motivo por el que han sido elegidos, el asesino no desperdiciará ninguna ocasión para matarlos mientras duermen.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/pelicula/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"pelicula",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7b - PeliculaRestoreOriginalDB",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\":\"Attack of the Killer Tomatoes!\",\r\n    \"poster\":\"https://m.media-amazon.com/images/M/MV5BZWMxOTEzMjktYjE3NC00NmZjLThlNzYtMDE3MDlmNWVmZTZkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX871_.jpg\",\r\n    \"sinopsis\":\"Los tomates, hartos de tantos años de acabar como sofrito o bloody mary, están cobrando vida y están asesinando a los humanos. Se sospecha que este hecho está provocado por un pesticida creado por un loco que quiere el control del mundo.\",\r\n    \"trailer\":\"https://www.imdb.com/video/vi179831065?playlistId=tt0080391\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44371/api/pelicula/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"pelicula",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8 - CantidadTicketsByFuncionId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/funcion/3/tickets",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"funcion",
+						"3",
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllPeliculas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44371/api/pelicula/6",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44371",
+					"path": [
+						"api",
+						"pelicula",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

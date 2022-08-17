@@ -106,19 +106,19 @@ namespace PS.Domain.EntitiesConfiguration
                    new Peliculas
                    {
                        PeliculaId = 9,
-                       Titulo = "Star Wars",
-                       Poster = "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY745_.jpg",
-                       Sinopsis = "Luke Skywalker une sus fuerzas con un caballero jedi, un piloto fanfarrón, un wookiee y dos droides para salvar a la galaxia de la estación espacial del Imperio, a la vez que intenta rescatar a la princesa Leia del malvado Darth Vader.",
-                       Trailer = "https://www.youtube.com/embed/vZ734NWnAHA"
+                       Titulo = "Minios: The Rise of Gru",
+                       Poster = "https://m.media-amazon.com/images/I/81zWZ6aB74L._AC_SY550_.jpg",
+                       Sinopsis = "En los años 70, Gru crece siendo un gran admirador de un supergrupo de villanos. Gru idea un plan con la esperanza de formar parte de esaa banda.",
+                       Trailer = "https://www.youtube.com/embed/6DxjJzmYsXo"
                    },
 
                    new Peliculas
                    {
                        PeliculaId = 10,
-                       Titulo = "Alien",
-                       Poster = "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY720_.jpg",
-                       Sinopsis = "Un buque espacial percibe una transmisión desconocida pidiendo ayuda. Al llegar al origen de la señal encuentran a uno de los tripulantes atacado por una misteriosa forma de vida. Pronto se dan cuenta de que su ciclo vital acaba de empezar.",
-                       Trailer = "https://www.youtube.com/embed/LjLamj-b0I8"
+                       Titulo = "Karate Kid",
+                       Poster = "https://m.media-amazon.com/images/I/616JqQ25lgS._AC_SY679_.jpg",
+                       Sinopsis = "Un maestro de las artes marciales acepta enseñar kárate a un adolescente acosado. Su destino cambiará cuando comience a transitar el camino del Karate",
+                       Trailer = "https://www.youtube.com/embed/r_8Rw16uscg"
                    }
 
                 );  

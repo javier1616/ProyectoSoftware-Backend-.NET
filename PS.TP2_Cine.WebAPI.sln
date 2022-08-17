@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.TP2_Cine.WebAPI", "PS.TP2_Cine.WebAPI\PS.TP2_Cine.WebAPI.csproj", "{73A6FFD6-0CAC-4EB8-A5A2-EA57AE3D03DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.TP2_Cine.WebAPI", "PS.TP2_Cine.WebAPI\PS.TP2_Cine.WebAPI.csproj", "{73A6FFD6-0CAC-4EB8-A5A2-EA57AE3D03DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.AccessData", "PS.AccessData\PS.AccessData.csproj", "{348C0B47-BED1-4C3A-B369-80603216F943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.AccessData", "PS.AccessData\PS.AccessData.csproj", "{348C0B47-BED1-4C3A-B369-80603216F943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.Domain", "PS.Domain\PS.Domain.csproj", "{9CD80A26-70F9-4B8F-917E-1279497BD0B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.Domain", "PS.Domain\PS.Domain.csproj", "{9CD80A26-70F9-4B8F-917E-1279497BD0B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PS.Application", "PS.Application\PS.Application.csproj", "{65B1DD1D-1435-44E1-9FDF-A99A942799EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PS.Application", "PS.Application\PS.Application.csproj", "{65B1DD1D-1435-44E1-9FDF-A99A942799EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{84CF0C0A-4F7A-429F-9AFC-765A296672CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{65B1DD1D-1435-44E1-9FDF-A99A942799EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65B1DD1D-1435-44E1-9FDF-A99A942799EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65B1DD1D-1435-44E1-9FDF-A99A942799EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84CF0C0A-4F7A-429F-9AFC-765A296672CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84CF0C0A-4F7A-429F-9AFC-765A296672CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84CF0C0A-4F7A-429F-9AFC-765A296672CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84CF0C0A-4F7A-429F-9AFC-765A296672CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

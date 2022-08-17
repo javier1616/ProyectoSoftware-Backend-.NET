@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PS.AccessData.Migrations
 {
-    public partial class Migration_001 : Migration
+    public partial class migration_01 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -97,8 +97,8 @@ namespace PS.AccessData.Migrations
                     { 6, "https://m.media-amazon.com/images/M/MV5BZWMxOTEzMjktYjE3NC00NmZjLThlNzYtMDE3MDlmNWVmZTZkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX871_.jpg", "Los tomates, hartos de tantos años de acabar como sofrito o bloody mary, están cobrando vida y están asesinando a los humanos. Se sospecha que este hecho está provocado por un pesticida creado por un loco que quiere el control del mundo.", "Attack of the Killer Tomatoes!", "https://www.youtube.com/embed/txfdGlxEsG8" },
                     { 7, "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1005_.jpg", "Un matrimonio recientemente fallecido le encarga a un extraño demonio que saque a una insoportable familia de su hogar.", "Beetlejuice", "https://www.youtube.com/embed/ickbVzajrk0" },
                     { 8, "https://m.media-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_FMjpg_UX682_.jpg", "Un boxeador poco conocido tiene la gran oportunidad de enfrentarse al campeón de los pesos pesados en un combate en el que espera estar a la altura y hacerse un nombre.", "Rocky", "https://www.youtube.com/embed/7RYpJAUMo2M" },
-                    { 9, "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY745_.jpg", "Luke Skywalker une sus fuerzas con un caballero jedi, un piloto fanfarrón, un wookiee y dos droides para salvar a la galaxia de la estación espacial del Imperio, a la vez que intenta rescatar a la princesa Leia del malvado Darth Vader.", "Star Wars", "https://www.youtube.com/embed/vZ734NWnAHA" },
-                    { 10, "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UY720_.jpg", "Un buque espacial percibe una transmisión desconocida pidiendo ayuda. Al llegar al origen de la señal encuentran a uno de los tripulantes atacado por una misteriosa forma de vida. Pronto se dan cuenta de que su ciclo vital acaba de empezar.", "Alien", "https://www.youtube.com/embed/LjLamj-b0I8" }
+                    { 9, "https://m.media-amazon.com/images/I/81zWZ6aB74L._AC_SY550_.jpg", "En los años 70, Gru crece siendo un gran admirador de un supergrupo de villanos. Gru idea un plan con la esperanza de formar parte de esaa banda.", "Minios: The Rise of Gru", "https://www.youtube.com/embed/6DxjJzmYsXo" },
+                    { 10, "https://m.media-amazon.com/images/I/616JqQ25lgS._AC_SY679_.jpg", "Un maestro de las artes marciales acepta enseñar kárate a un adolescente acosado. Su destino cambiará cuando comience a transitar el camino del Karate", "Karate Kid", "https://www.youtube.com/embed/r_8Rw16uscg" }
                 });
 
             migrationBuilder.InsertData(
